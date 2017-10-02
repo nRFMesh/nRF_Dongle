@@ -1,0 +1,10 @@
+OpenWindow="Functions", DockArea=LEFT, x=0, y=0, w=833, h=985, FilterBarShown=1, 
+OpenWindow="Registers", DockArea=LEFT, x=0, y=0, w=833, h=985, FilterBarShown=0, 
+OpenWindow="Memory1", DockArea=BOTTOM, x=0, y=0, w=1668, h=476, FilterBarShown=0, 
+OpenWindow="Console", DockArea=BOTTOM, x=1, y=0, w=1535, h=476, FilterBarShown=0, 
+OpenWindow="Call Stack", DockArea=LEFT, x=0, y=1, w=833, h=264, FilterBarShown=0, 
+OpenWindow="Disassembly", DockArea=RIGHT, x=0, y=0, w=1017, h=1277, FilterBarShown=0, ExecCountersShown=0
+OpenToolbar="Debug", Floating=0, x=0, y=0
+TableHeader="Functions", SortCol="Address", SortOrder="ASCENDING", VisibleCols=["Name";"Address";"Size";"#Insts";"Source"], ColWidths=[275;122;74;96;240]
+TableHeader="Registers", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Description"], ColWidths=[135;132;566]
+TableHeader="Call Stack", SortCol="Function", SortOrder="ASCENDING", VisibleCols=["Function";"Stack Info";"Source"], ColWidths=[150;170;513]
