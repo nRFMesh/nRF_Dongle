@@ -1,0 +1,1 @@
+cp .\BUILD\NRF51_DONGLE\GCC_ARM\03_ble.hex J:\

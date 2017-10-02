@@ -1,0 +1,6 @@
+.temp/
+BUILD/
+*.pyc
+mbed-os/
+.settings/
+.vscode/
