@@ -1,3 +1,2 @@
-speed 4000
 loadfile .\BUILD\NRF51_DONGLE\GCC_ARM\06_mbed_esb.hex
 exit
