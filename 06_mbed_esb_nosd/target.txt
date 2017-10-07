@@ -1,0 +1,35 @@
+nrf.h
+
+
+
+sdk_config.h    : esb
+
+sdk_macros.h    : esb/util
+
+nrf_gpio.h
+
+irq_handlers_hw.h : NORDIC, NRF5
+nrf_drv_config.h  : NORDIC, NRF5, MCU_NRF51822_UNIFIED
+cmsis_nvic.h      : NORDIC, NRF5, MCU_NRF51822_UNIFIED
+
+nrf51822_peripherals.h : esb/sdk11_nosd/device (macro NRF51822)
+
+irq_handlers_hw.h : NORDIC, NRF5
+
+
+
+gpio_api.c conflicts :
+ - NORDIC, NRF5
+ - NORDIC, NRF51822
+
+removed :
+    cmsis_nvic.h    : NORDIC, MCU_NRF51822
+
+
+undefined reference to nrf_gpio_pins_read : 
+-> nrf_gpio.h
+-> nrf_drv_gpiote.h
+
+removed  esb\hal
+
+

@@ -12,13 +12,13 @@ DigitalOut  led_b(LED3);
 void nrf_esb_event_handler(nrf_esb_evt_t const * p_event)
 {
   led_r = 1;led_g = 1;led_b = 1;      
-  wait_ms(500);   
+  //wait_ms(500);   
   led_r = 0;      
-  wait_ms(500);   
+  //wait_ms(500);   
   led_g = 0;      
-  wait_ms(500);   
+  //wait_ms(500);   
   led_b = 0;      
-  wait_ms(1000);  
+  //wait_ms(1000);  
   led_r = 1;led_g = 1;led_b = 1;      
   /*
     switch (p_event->evt_id)
@@ -85,9 +85,9 @@ int main()
   led_b = 1;
   
   led_r = 0;
-  wait_ms(500);   
+  //wait_ms(500);   
   led_r = 1;
-  wait_ms(1000);  
+  //wait_ms(1000);  
 
   err_code = esb_init();
   APP_ERROR_CHECK(err_code);
@@ -95,8 +95,8 @@ int main()
   while(1) 
   {
     led_g = 0;
-    wait_ms(500);   
+    //wait_ms(500);   
     led_g = 1;
-    wait_ms(1000);  
+    //wait_ms(1000);  
   }
 }
