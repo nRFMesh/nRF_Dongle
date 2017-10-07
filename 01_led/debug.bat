@@ -1,1 +1,1 @@
-JLink.exe -device NRF51822_XXAA -If SWD -Speed 4000
+JLink.exe -device NRF51422_XXAC -If SWD -Speed 4000

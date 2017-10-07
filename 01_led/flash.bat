@@ -1,2 +1,2 @@
-JLink.exe -device NRF51822_XXAA -If SWD -CommanderScript jlflash.jlink
+JLink.exe -device NRF51422_XXAC -If SWD -CommanderScript jlflash.jlink
 
