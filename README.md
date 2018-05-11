@@ -1,5 +1,6 @@
 # nrf51
  - This repo is no longer maintained, I switched from mbed to the nRF SDK usage, see examples in [The Home Smart Mesh Project](https://github.com/HomeSmartMesh/IoT_Frameworks/tree/master)
+ 
 tests and samples for the nRF51 series using mbed
 
 # Hardware nRF51 Dongle
